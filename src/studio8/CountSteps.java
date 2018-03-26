@@ -51,7 +51,7 @@ public class CountSteps {
 					peakCounter++;
 				}
 			}
-			inputStream.close();
+			inputStream2.close();
 			System.out.println(peakCounter);
 
 		} catch (FileNotFoundException e) {
